@@ -1,0 +1,6 @@
+{
+  "namespace": "instagram",
+  "paths": {
+    "user": "user/:id"
+  }
+}

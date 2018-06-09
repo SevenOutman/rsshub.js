@@ -1,0 +1,6 @@
+{
+  "namespace": "bangumi",
+  "paths": {
+    "calendar-today": "calendar/today"
+  }
+}

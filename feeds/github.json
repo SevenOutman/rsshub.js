@@ -1,0 +1,7 @@
+{
+  "namespace": "github",
+  "paths": {
+    "repos": "repos/:user",
+    "trending": "trending/:since/:language"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "namespace": "panda",
+  "description": "熊猫直播",
+  "paths": {
+    "room": "room/:id"
+  }
+}

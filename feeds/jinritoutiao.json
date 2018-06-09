@@ -1,0 +1,6 @@
+{
+  "namespace": "jinritoutiao",
+  "paths": {
+    "keyword": "keyword/:keyword"
+  }
+}

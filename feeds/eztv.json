@@ -1,0 +1,6 @@
+{
+  "namespace": "eztv",
+  "paths": {
+    "torrents": "torrents/:imdb_id"
+  }
+}

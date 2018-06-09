@@ -1,0 +1,6 @@
+{
+  "namespace": "douyu",
+  "paths": {
+    "room": "room/:id"
+  }
+}

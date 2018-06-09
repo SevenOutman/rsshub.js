@@ -1,0 +1,6 @@
+{
+  "namespace": "v2ex",
+  "paths": {
+    "topics": "topics/:type"
+  }
+}

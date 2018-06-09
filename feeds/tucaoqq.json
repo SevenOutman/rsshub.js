@@ -1,0 +1,7 @@
+{
+  "namespace": "tucaoqq",
+  "description": "腾讯吐个槽",
+  "paths": {
+    "post": "post/:project/:key"
+  }
+}

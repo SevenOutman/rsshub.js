@@ -1,0 +1,6 @@
+{
+  "namespace": "juejin",
+  "paths": {
+    "category": "category/:category"
+  }
+}

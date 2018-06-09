@@ -1,0 +1,6 @@
+{
+  "namespace": "ziroom",
+  "paths": {
+    "room": "room/:city/:iswhole/:room/:keyword"
+  }
+}

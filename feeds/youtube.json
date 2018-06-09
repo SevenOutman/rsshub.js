@@ -1,0 +1,7 @@
+{
+  "namespace": "youtube",
+  "paths": {
+    "user": "user/:username",
+    "channel": "channel/:id"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "namespace": "jike",
+  "paths": {
+    "topic": "topic/:id",
+    "topic-square": "topic/square/:id",
+    "user": "user/:id"
+  }
+}

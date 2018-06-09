@@ -1,0 +1,7 @@
+{
+  "namespace": "smzdm",
+  "description": "什么值得买",
+  "paths": {
+    "keyword": "keyword/:keyword"
+  }
+}

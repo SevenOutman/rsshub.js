@@ -1,0 +1,10 @@
+{
+  "namespace": "mzitu",
+  "path": "",
+  "paths": {
+    "category": "category/:category",
+    "tags": "tags",
+    "tag": "tag/:tag",
+    "post": "post/:id"
+  }
+}

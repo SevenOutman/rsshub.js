@@ -1,0 +1,5 @@
+{
+  "namespace": "cctv",
+  "description": "央视新闻",
+  "path": ":category"
+}

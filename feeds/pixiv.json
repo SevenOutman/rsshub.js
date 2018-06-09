@@ -1,0 +1,8 @@
+{
+  "namespace": "pixiv",
+  "paths": {
+    "user-bookmarks": "user/bookmarks/:id",
+    "user": "user/:id",
+    "ranking": "ranking/:mode/:date"
+  }
+}

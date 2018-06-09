@@ -1,0 +1,8 @@
+{
+  "namespace": "douban",
+  "paths": {
+    "movie-playing": "movie/playing/:score/:city",
+    "movie-later": "movie/later",
+    "movie-ustop": "movie/ustop"
+  }
+}

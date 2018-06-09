@@ -1,0 +1,8 @@
+{
+  "namespace": "yande.re",
+  "description": "yande.re",
+  "paths": {
+    "post": "post/:tags",
+    "post-popular_recent": "post/popular_recent/:period"
+  }
+}

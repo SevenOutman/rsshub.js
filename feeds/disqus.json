@@ -1,0 +1,6 @@
+{
+  "namespace": "disqus",
+  "paths": {
+    "posts": "posts/:forum"
+  }
+}

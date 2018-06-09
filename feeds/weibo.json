@@ -1,0 +1,8 @@
+{
+  "namespace": "weibo",
+  "paths": {
+    "user": "user/:uid",
+    "user2": "user2/:uid",
+    "keyword": "keyword/:keyword"
+  }
+}

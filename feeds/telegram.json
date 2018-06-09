@@ -1,0 +1,6 @@
+{
+  "namespace": "telegram",
+  "paths": {
+    "channel": "channel/:username"
+  }
+}

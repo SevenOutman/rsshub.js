@@ -1,0 +1,6 @@
+{
+  "namespace": "twitter",
+  "paths": {
+    "user": "user/:id"
+  }
+}

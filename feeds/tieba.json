@@ -1,0 +1,7 @@
+{
+  "namespace": "tieba",
+  "paths": {
+    "forum": "forum/:kw",
+    "forum-good": "forum/good/:kw/:cid"
+  }
+}
