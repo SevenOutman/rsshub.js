@@ -1,0 +1,9 @@
+{
+  "namespace": "shmtu",
+  "description": "上海海事大学",
+  "paths": {
+    "events": "events",
+    "notes": "notes",
+    "jwc": "jwc/:type"
+  }
+}

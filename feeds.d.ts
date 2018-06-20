@@ -224,6 +224,12 @@ interface SMZDMFeed {
     keyword: RSSHubFeedEndpoint<{ keyword: string }>;
 }
 
+interface SHMTUFeed {
+    events: RSSHubFeedEndpoint;
+    notes: RSSHubFeedEndpoint;
+    jwc: RSSHubFeedEndpoint<{ type: 1 | 2 }>;
+}
+
 export interface RSSHubFeeds {
     bilibili: BilibiliFeed;
     bangumi: BangumiFeed;
@@ -268,6 +274,7 @@ export interface RSSHubFeeds {
     ximalaya: XimalayaFeed;
     eztv: EZTVFeed;
     smzdm: SMZDMFeed;
+    shmtu: SHMTUFeed;
 }
 
 declare const Feeds: RSSHubFeeds;
