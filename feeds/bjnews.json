@@ -1,0 +1,5 @@
+{
+  "namespace": "bjnews",
+  "description": "新京报",
+  "path": ":category"
+}
