@@ -230,6 +230,10 @@ interface SHMTUFeed {
     jwc: RSSHubFeedEndpoint<{ type: 1 | 2 }>;
 }
 
+interface BJNewsFeed extends RSSHubFeedEndpoint<{ category: string }> {
+
+}
+
 export interface RSSHubFeeds {
     bilibili: BilibiliFeed;
     bangumi: BangumiFeed;
@@ -275,6 +279,7 @@ export interface RSSHubFeeds {
     eztv: EZTVFeed;
     smzdm: SMZDMFeed;
     shmtu: SHMTUFeed;
+    bjnews: BJNewsFeed;
 }
 
 declare const Feeds: RSSHubFeeds;
