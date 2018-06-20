@@ -98,6 +98,7 @@ interface DoubanFeed {
     movie_playing: RSSHubFeedEndpoint<{ score?: string, city?: string }>;
     movie_later: RSSHubFeedEndpoint;
     movie_ustop: RSSHubFeedEndpoint;
+    group: RSSHubFeedEndpoint<{ groupid: string }>;
 }
 
 interface JandanFeed {
