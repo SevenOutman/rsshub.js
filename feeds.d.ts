@@ -24,6 +24,8 @@ interface BilibiliFeed extends Feed {
     live_search: RSSHubFeedEndpoint<{ key: string, order: string }>;
     live_area: RSSHubFeedEndpoint<{ areaID: string, order: string }>;
     blackboard: RSSHubFeedEndpoint;
+    mall_new: RSSHubFeedEndpoint;
+    mall_ip: RSSHubFeedEndpoint<{ id: string }>;
 }
 
 interface BangumiFeed {
