@@ -1,0 +1,6 @@
+{
+  "namespace": "douyin",
+  "paths": {
+    "user": "user/:id"
+  }
+}

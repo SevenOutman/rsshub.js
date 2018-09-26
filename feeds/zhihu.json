@@ -5,6 +5,7 @@
     "people-activities": "people/activities/:id",
     "people-answers": "people/answers/:id",
     "zhuanlan": "zhuanlan/:id",
-    "daily": "daily"
+    "daily": "daily",
+    "hotlist": "hotlist"
   }
 }
