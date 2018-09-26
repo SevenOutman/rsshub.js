@@ -2,6 +2,7 @@
   "namespace": "jianshu",
   "paths": {
     "home": "home",
+    "trending": "trending/:timeframe",
     "trending-weekly": "trending/weekly",
     "trending-monthly": "trending/monthly",
     "collection": "collection/:id",

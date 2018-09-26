@@ -3,6 +3,8 @@
   "paths": {
     "topic": "topic/:id",
     "topic-square": "topic/square/:id",
-    "user": "user/:id"
+    "topic-text": "topic/text/:id",
+    "user": "user/:id",
+    "daily": "daily"
   }
 }

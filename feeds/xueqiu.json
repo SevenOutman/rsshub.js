@@ -1,0 +1,7 @@
+{
+  "namespace": "xueqiu",
+  "paths": {
+    "user": "user/:id/:type",
+    "favorite": "favorite/:id"
+  }
+}

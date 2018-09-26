@@ -1,23 +1,26 @@
-import { RSSHubRequestSetup } from "./index";
+import {RSSHubRequestSetup} from "./index";
 
 interface RSSHubFeedEndpoint<T = void> {
     (params?: T): RSSHubRequestSetup;
 }
 
 interface Feed {
-    [ key: string ]: RSSHubFeedEndpoint;
+    [key: string]: RSSHubFeedEndpoint<any>;
 }
 
 interface BilibiliFeed extends Feed {
     bangumi: RSSHubFeedEndpoint<{ seasonid: string }>;
     user_video: RSSHubFeedEndpoint<{ uid: string }>;
+    user_article: RSSHubFeedEndpoint<{ uid: string }>;
     user_dynamic: RSSHubFeedEndpoint<{ uid: string }>;
+    user_channel: RSSHubFeedEndpoint<{ uid: string, cid: string }>;
     user_fav: RSSHubFeedEndpoint<{ uid: string }>;
     fav: RSSHubFeedEndpoint<{ uid: string, fid: string }>;
     user_coin: RSSHubFeedEndpoint<{ uid: string }>;
     user_followers: RSSHubFeedEndpoint<{ uid: string }>;
     user_followings: RSSHubFeedEndpoint<{ uid: string }>;
-    partion: RSSHubFeedEndpoint<{ partion: string }>;
+    partion: RSSHubFeedEndpoint<{ tid: number }>;
+    ranking: RSSHubFeedEndpoint<{ tid: number, days: number }>;
     video_reply: RSSHubFeedEndpoint<{ aid: string }>;
     link_news: RSSHubFeedEndpoint<{ product: string }>;
     live_room: RSSHubFeedEndpoint<{ roomID: string }>;
@@ -40,13 +43,17 @@ interface WeiboFeed {
 
 interface TiebaFeed {
     forum: RSSHubFeedEndpoint<{ kw: string }>;
-    forum_good: RSSHubFeedEndpoint<{ kw: string, cid: string }>
+    forum_good: RSSHubFeedEndpoint<{ kw: string, cid: string }>;
+    post: RSSHubFeedEndpoint<{ id: string }>;
+    post_lz: RSSHubFeedEndpoint<{ id: string }>;
 }
 
 interface JikeFeed {
     topic: RSSHubFeedEndpoint<{ id: string }>;
     topic_square: RSSHubFeedEndpoint<{ id: string }>;
+    topic_text: RSSHubFeedEndpoint<{ id: string }>;
     user: RSSHubFeedEndpoint<{ id: string }>;
+    daily: RSSHubFeedEndpoint;
 }
 
 interface NCMFeed {
@@ -61,6 +68,7 @@ interface JuejinFeed {
 
 interface JianshuFeed {
     home: RSSHubFeedEndpoint;
+    trending: RSSHubFeedEndpoint<{ timeframe: string }>;
     trending_weekly: RSSHubFeedEndpoint;
     trending_monthly: RSSHubFeedEndpoint;
     collection: RSSHubFeedEndpoint<{ id: string }>;
@@ -73,6 +81,7 @@ interface ZhihuFeed {
     people_answers: RSSHubFeedEndpoint<{ id: string }>;
     zhuanlan: RSSHubFeedEndpoint<{ id: string }>;
     daily: RSSHubFeedEndpoint;
+    hotlist: RSSHubFeedEndpoint;
 }
 
 interface ZiroomFeed {
@@ -101,6 +110,9 @@ interface DoubanFeed {
     movie_later: RSSHubFeedEndpoint;
     movie_ustop: RSSHubFeedEndpoint;
     group: RSSHubFeedEndpoint<{ groupid: string }>;
+    explore: RSSHubFeedEndpoint;
+    book_latest: RSSHubFeedEndpoint;
+    music_latest: RSSHubFeedEndpoint;
 }
 
 interface JandanFeed {
@@ -185,6 +197,16 @@ interface V2EXFeed {
 
 interface TelegramFeed {
     channel: RSSHubFeedEndpoint<{ username: string }>;
+    stickerpack: RSSHubFeedEndpoint<{ name: string }>;
+}
+
+interface DouyinFeed {
+    user: RSSHubFeedEndpoint<{ id: string }>;
+}
+
+interface XueqiuFeed {
+    user: RSSHubFeedEndpoint<{ id: string, type: number }>;
+    favorite: RSSHubFeedEndpoint<{ id: string }>;
 }
 
 interface ReadhubFeed {
@@ -271,6 +293,8 @@ export interface RSSHubFeeds {
     panda: PandaFeed;
     v2ex: V2EXFeed;
     telegram: TelegramFeed;
+    douyin: DouyinFeed;
+    xueqiu: XueqiuFeed;
     readhub: ReadhubFeed;
     konachan: KonachanFeed;
     yande_re: YandereFeed;

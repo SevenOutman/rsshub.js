@@ -1,6 +1,7 @@
 {
   "namespace": "telegram",
   "paths": {
-    "channel": "channel/:username"
+    "channel": "channel/:username",
+    "stickerpack": "stickerpack/:name"
   }
 }
