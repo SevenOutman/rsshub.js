@@ -11,12 +11,12 @@
 ## Installation
 
     yarn add rsshub.js
-    
+
 or if you prefer `npm`
 
     npm i rsshub.js
-    
-    
+
+
 ## Usage
 
 If you don't know [RSSHub](https://github.com/DIYgod/RSSHub), you should check it out before getting into this project.
@@ -51,7 +51,7 @@ rsshub.request('/some/missing/feed')
 
 #### Config
 
-`rsshub.config()` takes an config object of the same structure that `axios` does. 
+`rsshub.config()` takes an config object of the same structure that `axios` does.
 For example if you want you call a RSSHub instance you deployed yourself instead of `https://rsshub.app`
 
 ```js
@@ -65,9 +65,14 @@ rsshub.config({ baseURL: 'https://my-own-rsshub.com' })
 - [RSSHub](https://github.com/DIYgod/RSSHub)
 
 
+## 救救孩子！
+
+RSSHub 怎么转眼就更新了那么多啊！！！求各位大佬给 RSSHub 贡献代码的时候也能到这边来同步更新一下5555……
+
+
 ## License
 
-RSSHub.js is [MIT Licensed](https://github.com/SevenOutman/rsshub.js/blob/master/LICENSE). 
+RSSHub.js is [MIT Licensed](https://github.com/SevenOutman/rsshub.js/blob/master/LICENSE).
 
 Copyright (c) 2018-present Shenghao "Doma" Lei
 
