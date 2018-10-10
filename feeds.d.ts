@@ -637,7 +637,7 @@ export interface RSSHubFeeds {
     konachannet: KonachannetFeed;
     yandere: YandereFeed;
     nytimes: NytimesFeed;
-    i3dm: I3dmFeed;
+    '3dm': I3dmFeed;
     ximalaya: XimalayaFeed;
     eztv: EztvFeed;
     smzdm: SmzdmFeed;

@@ -53,10 +53,11 @@ const clean = ([path, params]) => {
   const interfaces = {};
   for (let [name, { paths, path }] of Object.entries(feeds)) {
     let x = '';
-    if (!isNaN(name[0])) name = 'I' + name;
     name = name.replace(/\.\w/g, x => x[1].toUpperCase());
+    let _name = name;
+    if (!isNaN(name[0])) name = 'I' + name;
     const interfaceName = capitalize(name) + 'Feed';
-    interfaces[name.toLowerCase()] = interfaceName;
+    interfaces[_name.toLowerCase()] = interfaceName;
     let e = '';
     if (path != null) {
       const params = path.split(/\/?:/).slice(1).map(p => {
@@ -84,7 +85,8 @@ const clean = ([path, params]) => {
     d += x + '\n';
   }
   d += 'export interface RSSHubFeeds {\n';
-  for (const [name, interface] of Object.entries(interfaces)) {
+  for (let [name, interface] of Object.entries(interfaces)) {
+    if (!isNaN(name[0])) name = `'${name}'`;
     d += `    ${name}: ${interface};\n`;
   }
   d += '}\n';
