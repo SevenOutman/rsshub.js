@@ -1,6 +1,6 @@
 {
   "namespace": "sjtu",
   "paths": {
-    "seiee_academic": "seiee/academic"
+    "seiee-academic": "seiee/academic"
   }
 }

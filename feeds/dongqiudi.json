@@ -3,7 +3,7 @@
   "paths": {
     "daily": "daily",
     "result": "result/:team",
-    "team_news": "team_news/:team",
-    "player_news": "player_news/:id"
+    "team-news": "team_news/:team",
+    "player-news": "player_news/:id"
   }
 }

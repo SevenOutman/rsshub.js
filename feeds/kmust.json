@@ -2,7 +2,7 @@
   "namespace": "kmust",
   "paths": {
     "jwc": "jwc/:type?",
-    "job_careers": "job/careers/:type?",
-    "job_jobfairs": "job/jobfairs"
+    "job-careers": "job/careers/:type?",
+    "job-jobfairs": "job/jobfairs"
   }
 }

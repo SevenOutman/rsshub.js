@@ -4,7 +4,7 @@
     "repos": "repos/:user",
     "trending": "trending/:since/:language?",
     "issue": "issue/:user/:repo",
-    "user_followers": "user/followers/:user",
+    "user-followers": "user/followers/:user",
     "stars": "stars/:user/:repo"
   }
 }

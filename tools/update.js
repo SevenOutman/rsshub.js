@@ -31,7 +31,7 @@ const clean = ([path, params]) => {
     });
     feeds[name].paths = {};
     for (let [path, params] of paths) {
-      feeds[name].paths[path.join('_')] = clean([path, params]);
+      feeds[name].paths[path.join('_').split('_').join('-')] = clean([path, params]);
     }
     if (feeds[name].paths['']) {
       feeds[name].path = feeds[name].paths[''];
@@ -73,7 +73,7 @@ const clean = ([path, params]) => {
           if (p.includes('id') || p.includes('num')) t += ' | number';
           return t;
         });
-        const key = `    ${slug.replace('-', '_')}`;
+        const key = `    ${slug.replace(/-/g, '_')}`;
         const f = isEmpty(params) ? '' : `<{ ${params.join(', ')} }>`;
         c.push(`${key}: RSSHubFeedEndpoint${f};`);
       }

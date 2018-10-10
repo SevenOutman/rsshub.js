@@ -1,6 +1,6 @@
 {
   "namespace": "heu",
   "paths": {
-    "ugs_news": "ugs/news/:author?/:category?"
+    "ugs-news": "ugs/news/:author?/:category?"
   }
 }

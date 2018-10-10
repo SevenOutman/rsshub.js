@@ -2,8 +2,8 @@
   "namespace": "jike",
   "paths": {
     "topic": "topic/:id",
-    "topic_text": "topic/text/:id",
-    "topic_square": "topic/square/:id",
+    "topic-text": "topic/text/:id",
+    "topic-square": "topic/square/:id",
     "user": "user/:id",
     "daily": "daily"
   }

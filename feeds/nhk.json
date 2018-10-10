@@ -1,6 +1,6 @@
 {
   "namespace": "nhk",
   "paths": {
-    "news_web_easy": "news_web_easy"
+    "news-web-easy": "news_web_easy"
   }
 }

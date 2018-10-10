@@ -1,7 +1,7 @@
 {
   "namespace": "biquge",
   "paths": {
-    "novel_latestchapter": "novel/latestchapter/:id"
+    "novel-latestchapter": "novel/latestchapter/:id"
   },
   "description": "笔趣阁"
 }

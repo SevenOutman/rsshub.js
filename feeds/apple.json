@@ -1,6 +1,6 @@
 {
   "namespace": "apple",
   "paths": {
-    "exchange_repair": "exchange_repair/:country?"
+    "exchange-repair": "exchange_repair/:country?"
   }
 }

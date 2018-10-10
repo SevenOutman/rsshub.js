@@ -3,7 +3,7 @@
   "paths": {
     "user": "user/:id/:type?",
     "favorite": "favorite/:id",
-    "user_stock": "user_stock/:id",
+    "user-stock": "user_stock/:id",
     "fund": "fund/:id"
   }
 }

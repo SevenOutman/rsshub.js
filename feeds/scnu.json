@@ -3,6 +3,6 @@
   "paths": {
     "jw": "jw",
     "library": "library",
-    "cs_match": "cs/match"
+    "cs-match": "cs/match"
   }
 }

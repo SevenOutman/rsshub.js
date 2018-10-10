@@ -1,7 +1,7 @@
 {
   "namespace": "nytimes",
   "paths": {
-    "morning_post": "morning_post"
+    "morning-post": "morning_post"
   },
   "description": "纽约时报"
 }

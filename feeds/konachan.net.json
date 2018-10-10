@@ -1,6 +1,6 @@
 {
   "namespace": "konachan.net",
   "paths": {
-    "post_popular_recent": "post/popular_recent/:period"
+    "post-popular-recent": "post/popular_recent/:period"
   }
 }

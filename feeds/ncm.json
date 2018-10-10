@@ -2,7 +2,7 @@
   "namespace": "ncm",
   "paths": {
     "playlist": "playlist/:id",
-    "user_playlist": "user/playlist/:uid",
+    "user-playlist": "user/playlist/:uid",
     "artist": "artist/:id",
     "djradio": "djradio/:id"
   },
