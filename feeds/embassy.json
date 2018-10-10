@@ -1,0 +1,4 @@
+{
+  "namespace": "embassy",
+  "path": ":country/:city?"
+}

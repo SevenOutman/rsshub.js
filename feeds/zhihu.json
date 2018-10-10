@@ -2,8 +2,8 @@
   "namespace": "zhihu",
   "paths": {
     "collection": "collection/:id",
-    "people-activities": "people/activities/:id",
-    "people-answers": "people/answers/:id",
+    "people_activities": "people/activities/:id",
+    "people_answers": "people/answers/:id",
     "zhuanlan": "zhuanlan/:id",
     "daily": "daily",
     "hotlist": "hotlist"

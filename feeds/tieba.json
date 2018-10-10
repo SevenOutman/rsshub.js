@@ -2,8 +2,8 @@
   "namespace": "tieba",
   "paths": {
     "forum": "forum/:kw",
-    "forum-good": "forum/good/:kw/:cid",
+    "forum_good": "forum/good/:kw/:cid?",
     "post": "post/:id",
-    "post-lz": "post/lz/:id"
+    "post_lz": "post/lz/:id"
   }
 }

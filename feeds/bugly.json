@@ -1,0 +1,6 @@
+{
+  "namespace": "bugly",
+  "paths": {
+    "changelog": "changelog/:platform"
+  }
+}

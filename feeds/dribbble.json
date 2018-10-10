@@ -1,7 +1,7 @@
 {
-  "namespace": "Dribbble",
+  "namespace": "dribbble",
   "paths": {
-    "popular": "popular/:timeframe",
+    "popular": "popular/:timeframe?",
     "user": "user/:name",
     "keyword": "keyword/:keyword"
   }

@@ -1,0 +1,6 @@
+{
+  "namespace": "curseforge",
+  "paths": {
+    "files": "files/:project"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "namespace": "fir",
+  "paths": {
+    "update": "update/:id"
+  }
+}

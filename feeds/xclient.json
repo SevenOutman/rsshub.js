@@ -1,0 +1,6 @@
+{
+  "namespace": "xclient",
+  "paths": {
+    "app": "app/:name"
+  }
+}

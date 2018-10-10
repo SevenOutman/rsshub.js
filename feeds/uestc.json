@@ -1,0 +1,7 @@
+{
+  "namespace": "uestc",
+  "paths": {
+    "jwc": "jwc/:type?",
+    "news": "news/:type?"
+  }
+}

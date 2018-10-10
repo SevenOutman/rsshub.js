@@ -1,0 +1,6 @@
+{
+  "namespace": "thunderbird",
+  "paths": {
+    "release": "release"
+  }
+}

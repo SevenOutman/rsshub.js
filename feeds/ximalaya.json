@@ -1,7 +1,7 @@
 {
   "namespace": "ximalaya",
-  "description": "喜马拉雅",
   "paths": {
-    "album": "album/:classify/:id"
-  }
+    "album": "album/:id"
+  },
+  "description": "喜马拉雅"
 }

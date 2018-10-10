@@ -1,0 +1,6 @@
+{
+  "namespace": "cuit",
+  "paths": {
+    "cxxww": "cxxww/:type?"
+  }
+}

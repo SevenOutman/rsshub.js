@@ -1,0 +1,7 @@
+{
+  "namespace": "cczu",
+  "paths": {
+    "jwc": "jwc/:category?",
+    "news": "news/:category?"
+  }
+}

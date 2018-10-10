@@ -1,8 +1,7 @@
 {
   "namespace": "konachan",
-  "description": "Konachan Anime Wallpapers",
   "paths": {
-    "post": "post/:tags",
-    "post-popular_recent": "post/popular_recent/:period"
-  }
+    "post_popular_recent": "post/popular_recent/:period"
+  },
+  "description": "Konachan Anime Wallpapers"
 }

@@ -1,0 +1,4 @@
+{
+  "namespace": "imuseum",
+  "path": ":city/:type"
+}

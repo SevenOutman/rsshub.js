@@ -1,0 +1,8 @@
+{
+  "namespace": "scnu",
+  "paths": {
+    "jw": "jw",
+    "library": "library",
+    "cs_match": "cs/match"
+  }
+}

@@ -1,6 +1,9 @@
 {
   "namespace": "bangumi",
   "paths": {
-    "calendar-today": "calendar/today"
+    "calendar_today": "calendar/today",
+    "subject": "subject/:id/:type",
+    "person": "person/:id",
+    "topic": "topic/:id"
   }
 }

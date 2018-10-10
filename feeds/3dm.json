@@ -1,0 +1,7 @@
+{
+  "namespace": "3dm",
+  "paths": {
+    "news": "news"
+  },
+  "path": ":name/:type"
+}

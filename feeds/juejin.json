@@ -1,6 +1,8 @@
 {
   "namespace": "juejin",
   "paths": {
-    "category": "category/:category"
+    "category": "category/:category",
+    "tag": "tag/:tag",
+    "trending": "trending/:category/:type"
   }
 }

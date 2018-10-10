@@ -1,0 +1,7 @@
+{
+  "namespace": "zcfy",
+  "paths": {
+    "index": "index",
+    "hot": "hot"
+  }
+}

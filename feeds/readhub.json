@@ -1,7 +1,7 @@
 {
   "namespace": "readhub",
-  "description": "Readhub",
   "paths": {
     "category": "category/:category"
-  }
+  },
+  "description": "Readhub"
 }

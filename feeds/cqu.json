@@ -1,0 +1,6 @@
+{
+  "namespace": "cqu",
+  "paths": {
+    "jwc_announcement": "jwc/announcement"
+  }
+}

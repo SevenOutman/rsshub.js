@@ -1,0 +1,7 @@
+{
+  "namespace": "dpu",
+  "paths": {
+    "jiaowu_news": "jiaowu/news/:type?",
+    "wlfw_news": "wlfw/news/:type?"
+  }
+}

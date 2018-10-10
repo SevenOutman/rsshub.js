@@ -1,7 +1,7 @@
 {
   "namespace": "geektime",
-  "description": "极客时间",
   "paths": {
     "column": "column/:cid"
-  }
+  },
+  "description": "极客时间"
 }

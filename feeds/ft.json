@@ -1,0 +1,6 @@
+{
+  "namespace": "ft",
+  "paths": {
+    "chinese": "chinese/:channel?"
+  }
+}

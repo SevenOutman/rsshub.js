@@ -1,0 +1,7 @@
+{
+  "namespace": "cqust",
+  "paths": {
+    "jw": "jw/:type?",
+    "lib": "lib/:type?"
+  }
+}

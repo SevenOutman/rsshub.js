@@ -1,0 +1,9 @@
+{
+  "namespace": "dongqiudi",
+  "paths": {
+    "daily": "daily",
+    "result": "result/:team",
+    "team_news": "team_news/:team",
+    "player_news": "player_news/:id"
+  }
+}

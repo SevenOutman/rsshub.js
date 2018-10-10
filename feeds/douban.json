@@ -1,12 +1,12 @@
 {
   "namespace": "douban",
   "paths": {
-    "movie-playing": "movie/playing/:score/:city",
-    "movie-later": "movie/later",
-    "movie-ustop": "movie/ustop",
+    "movie_playing": "movie/playing/:score/:city",
+    "movie_later": "movie/later",
+    "movie_ustop": "movie/ustop",
     "group": "group/:groupid",
     "explore": "explore",
-    "book-latest": "book/latest",
-    "music-latest": "music/latest"
+    "music_latest": "music/latest",
+    "book_latest": "book/latest"
   }
 }

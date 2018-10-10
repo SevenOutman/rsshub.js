@@ -1,0 +1,6 @@
+{
+  "namespace": "ju",
+  "paths": {
+    "jwc": "jwc/:type?"
+  }
+}

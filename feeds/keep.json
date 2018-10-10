@@ -1,0 +1,6 @@
+{
+  "namespace": "keep",
+  "paths": {
+    "user": "user/:id"
+  }
+}
