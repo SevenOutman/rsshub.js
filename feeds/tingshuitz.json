@@ -1,0 +1,8 @@
+{
+  "namespace": "tingshuitz",
+  "paths": {
+    "hangzhou": "hangzhou",
+    "xiaoshan": "xiaoshan",
+    "dalian": "dalian"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "namespace": "google",
+  "paths": {
+    "scholar": "scholar/:query"
+  }
+}

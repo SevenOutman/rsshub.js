@@ -1,0 +1,7 @@
+{
+  "namespace": "mihoyo",
+  "paths": {
+    "bh3": "bh3/:type",
+    "bh2": "bh2/:type"
+  }
+}

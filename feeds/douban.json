@@ -6,7 +6,7 @@
     "movie-ustop": "movie/ustop",
     "group": "group/:groupid",
     "explore": "explore",
-    "book-latest": "book/latest",
-    "music-latest": "music/latest"
+    "music-latest": "music/latest",
+    "book-latest": "book/latest"
   }
 }

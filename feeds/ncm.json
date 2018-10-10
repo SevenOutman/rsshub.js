@@ -1,9 +1,10 @@
 {
   "namespace": "ncm",
-  "description": "网易云音乐",
   "paths": {
     "playlist": "playlist/:id",
     "user-playlist": "user/playlist/:uid",
-    "artist": "artist/:id"
-  }
+    "artist": "artist/:id",
+    "djradio": "djradio/:id"
+  },
+  "description": "网易云音乐"
 }

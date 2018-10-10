@@ -119,3 +119,5 @@ fabric.properties
 dist
 index.js
 feeds.js
+tools/feeds
+tools/feeds.d.ts

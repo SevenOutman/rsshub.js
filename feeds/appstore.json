@@ -1,0 +1,9 @@
+{
+  "namespace": "appstore",
+  "paths": {
+    "update": "update/:country/:id",
+    "price": "price/:country/:type/:id",
+    "iap": "iap/:country/:id",
+    "xianmian": "xianmian"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "namespace": "qidian",
+  "paths": {
+    "chapter": "chapter/:id",
+    "forum": "forum/:id"
+  }
+}

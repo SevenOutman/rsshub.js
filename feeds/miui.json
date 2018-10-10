@@ -1,0 +1,4 @@
+{
+  "namespace": "miui",
+  "path": ":device/:type?"
+}

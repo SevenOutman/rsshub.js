@@ -1,0 +1,6 @@
+{
+  "namespace": "shanghaitech",
+  "paths": {
+    "sist-activity": "sist/activity"
+  }
+}

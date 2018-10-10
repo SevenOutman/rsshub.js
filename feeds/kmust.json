@@ -1,0 +1,8 @@
+{
+  "namespace": "kmust",
+  "paths": {
+    "jwc": "jwc/:type?",
+    "job-careers": "job/careers/:type?",
+    "job-jobfairs": "job/jobfairs"
+  }
+}

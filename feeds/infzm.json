@@ -1,5 +1,5 @@
 {
   "namespace": "infzm",
-  "description": "南方周末",
-  "path": ":id"
+  "path": ":id",
+  "description": "南方周末"
 }

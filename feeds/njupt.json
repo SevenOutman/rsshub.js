@@ -1,0 +1,6 @@
+{
+  "namespace": "njupt",
+  "paths": {
+    "jwc": "jwc/:type?"
+  }
+}

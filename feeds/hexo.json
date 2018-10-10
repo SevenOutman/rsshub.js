@@ -1,0 +1,6 @@
+{
+  "namespace": "hexo",
+  "paths": {
+    "next": "next/:url"
+  }
+}

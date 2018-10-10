@@ -1,7 +1,5 @@
 {
   "namespace": "jandan",
-  "description": "煎蛋",
-  "paths": {
-    "pic": "pic"
-  }
+  "path": ":sub_model",
+  "description": "煎蛋"
 }

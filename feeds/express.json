@@ -1,5 +1,5 @@
 {
   "namespace": "express",
-  "description": "快递",
-  "path": ":company/:number"
+  "path": ":company/:number",
+  "description": "快递"
 }

@@ -1,0 +1,6 @@
+{
+  "namespace": "tuicool",
+  "paths": {
+    "mags": "mags/:type"
+  }
+}

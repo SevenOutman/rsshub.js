@@ -1,0 +1,7 @@
+{
+  "namespace": "sctu",
+  "paths": {
+    "xgxy": "xgxy",
+    "jwc": "jwc/:type?"
+  }
+}

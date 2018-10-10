@@ -1,0 +1,4 @@
+{
+  "namespace": "hopper",
+  "path": ":lowestOnly/:from/:to?"
+}
