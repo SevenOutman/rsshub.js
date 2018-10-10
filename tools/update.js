@@ -50,11 +50,13 @@ const clean = ([path, params]) => {
   }
 
   let d = '';
+  const interfaces = {};
   for (let [name, { paths, path }] of Object.entries(feeds)) {
     let x = '';
     if (!isNaN(name[0])) name = 'I' + name;
     name = name.replace(/\.\w/g, x => x[1].toUpperCase());
     const interfaceName = capitalize(name) + 'Feed';
+    interfaces[name.toLowerCase()] = interfaceName;
     let e = '';
     if (path != null) {
       const params = path.split(/\/?:/).slice(1).map(p => {
@@ -81,6 +83,11 @@ const clean = ([path, params]) => {
     x += `interface ${interfaceName}${e} {\n${c.join('\n')}\n}\n`;
     d += x + '\n';
   }
+  d += 'export interface RSSHubFeeds {\n';
+  for (const [name, interface] of Object.entries(interfaces)) {
+    d += `    ${name}: ${interface};\n`;
+  }
+  d += '}\n';
   d = `import {RSSHubRequestSetup} from "./index";
 
 interface RSSHubFeedEndpoint<T = void> {
@@ -90,7 +97,8 @@ interface RSSHubFeedEndpoint<T = void> {
 interface Feed {
     [key: string]: RSSHubFeedEndpoint<any>;
 }
-` + d + `declare const Feeds: RSSHubFeeds;
+` + d + `
+declare const Feeds: RSSHubFeeds;
 export default Feeds;
 `;
   outputFile('feeds.d.ts', d);
