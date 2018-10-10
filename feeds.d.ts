@@ -182,6 +182,11 @@ interface V2exFeed {
     topics: RSSHubFeedEndpoint<{ type: string }>;
 }
 
+interface TelegramFeed {
+    channel: RSSHubFeedEndpoint<{ username: string }>;
+    stickerpack: RSSHubFeedEndpoint<{ name: string }>;
+}
+
 interface ReadhubFeed {
     category: RSSHubFeedEndpoint<{ category: string }>;
 }
@@ -629,6 +634,7 @@ export interface RSSHubFeeds {
     douyu: DouyuFeed;
     panda: PandaFeed;
     v2ex: V2exFeed;
+    telegram: TelegramFeed;
     readhub: ReadhubFeed;
     github: GithubFeed;
     fdroid: FdroidFeed;
