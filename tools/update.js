@@ -1,3 +1,8 @@
+// usage:
+//   0. host your rsshub, change the `baseUrl` below (under `const got = ...`)
+//   1. yarn && node update.js (run this file)
+//   2. move generated feeds/ and feeds.d.ts outside
+
 const { isEmpty, first, size, capitalize } = require('lodash');
 const { ensureDirSync, outputFile, outputJson, readJson } = require('fs-extra');
 
