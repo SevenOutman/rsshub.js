@@ -1,6 +1,4 @@
 {
   "namespace": "one",
-  "paths": {
-    "": ""
-  }
+  "path": "/"
 }

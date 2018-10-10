@@ -33,8 +33,8 @@ const clean = ([path, params]) => {
     for (let [path, params] of paths) {
       feeds[name].paths[path.join('_').split('_').join('-')] = clean([path, params]);
     }
-    if (feeds[name].paths['']) {
-      feeds[name].path = feeds[name].paths[''];
+    if (feeds[name].paths[''] != null) {
+      feeds[name].path = feeds[name].paths[''] || '/';
       delete feeds[name].paths[''];
       if (isEmpty(feeds[name].paths))
         delete feeds[name].paths;

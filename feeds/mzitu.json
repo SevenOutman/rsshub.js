@@ -1,10 +1,10 @@
 {
   "namespace": "mzitu",
   "paths": {
-    "": "",
     "tags": "tags",
     "category": "category/:category",
     "post": "post/:id",
     "tag": "tag/:tag"
-  }
+  },
+  "path": "/"
 }

@@ -93,8 +93,7 @@ interface ZhihuFeed {
     hotlist: RSSHubFeedEndpoint;
 }
 
-interface MzituFeed {
-    : RSSHubFeedEndpoint;
+interface MzituFeed extends RSSHubFeedEndpoint {
     tags: RSSHubFeedEndpoint;
     category: RSSHubFeedEndpoint<{ category: string }>;
     post: RSSHubFeedEndpoint<{ id: string | number }>;
@@ -275,8 +274,8 @@ interface NatgeoFeed extends RSSHubFeedEndpoint<{ cat: string, type?: string }> 
 
 }
 
-interface OneFeed {
-    : RSSHubFeedEndpoint;
+interface OneFeed extends RSSHubFeedEndpoint {
+
 }
 
 interface FirefoxFeed {
@@ -370,8 +369,8 @@ interface GoogleFeed {
     scholar: RSSHubFeedEndpoint<{ query: string }>;
 }
 
-interface PigtailsFeed {
-    : RSSHubFeedEndpoint;
+interface PigtailsFeed extends RSSHubFeedEndpoint {
+
 }
 
 interface ImuseumFeed extends RSSHubFeedEndpoint<{ city: string, type: string }> {
@@ -397,8 +396,8 @@ interface MafengwoFeed {
     note: RSSHubFeedEndpoint<{ type: string }>;
 }
 
-interface EarthquakeFeed {
-    : RSSHubFeedEndpoint;
+interface EarthquakeFeed extends RSSHubFeedEndpoint {
+
 }
 
 interface BiqugeFeed {
@@ -416,16 +415,16 @@ interface NovelFeed {
     booksky: RSSHubFeedEndpoint<{ id: string | number }>;
 }
 
-interface WeatheralarmFeed {
-    : RSSHubFeedEndpoint;
+interface WeatheralarmFeed extends RSSHubFeedEndpoint {
+
 }
 
 interface GitlabFeed {
     explore: RSSHubFeedEndpoint<{ type: string }>;
 }
 
-interface MygalgameFeed {
-    : RSSHubFeedEndpoint;
+interface MygalgameFeed extends RSSHubFeedEndpoint {
+
 }
 
 interface DpuFeed {
