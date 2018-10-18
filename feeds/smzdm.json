@@ -1,7 +1,8 @@
 {
   "namespace": "smzdm",
-  "description": "什么值得买",
   "paths": {
-    "keyword": "keyword/:keyword"
-  }
+    "keyword": "keyword/:keyword",
+    "ranking": "ranking/:rank_type/:rank_id/:hour"
+  },
+  "description": "什么值得买"
 }

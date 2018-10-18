@@ -1,0 +1,9 @@
+{
+  "namespace": "novel",
+  "paths": {
+    "biquge": "biquge/:id",
+    "uukanshu": "uukanshu/:uid",
+    "wenxuemi": "wenxuemi/:id1/:id2",
+    "booksky": "booksky/:id"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "namespace": "nchu",
+  "paths": {
+    "jwc": "jwc/:type?"
+  }
+}

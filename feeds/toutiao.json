@@ -1,8 +1,8 @@
 {
   "namespace": "toutiao",
-  "description": "开发者头条",
   "paths": {
     "today": "today",
     "user": "user/:id"
-  }
+  },
+  "description": "开发者头条"
 }

@@ -1,0 +1,10 @@
+{
+  "namespace": "namoc",
+  "paths": {
+    "announcement": "announcement",
+    "news": "news",
+    "media": "media",
+    "exhibition": "exhibition",
+    "specials": "specials"
+  }
+}

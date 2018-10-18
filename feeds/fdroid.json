@@ -1,0 +1,6 @@
+{
+  "namespace": "fdroid",
+  "paths": {
+    "apprelease": "apprelease/:app"
+  }
+}

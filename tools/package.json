@@ -1,0 +1,11 @@
+{
+  "name": "rsshub.js-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "got": "^9.2.2",
+    "lodash": "^4.17.11"
+  }
+}

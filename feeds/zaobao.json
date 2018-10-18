@@ -1,0 +1,7 @@
+{
+  "namespace": "zaobao",
+  "paths": {
+    "realtime": "realtime/:type?",
+    "znews": "znews/:type?"
+  }
+}

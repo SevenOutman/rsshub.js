@@ -1,0 +1,6 @@
+{
+  "namespace": "cas",
+  "paths": {
+    "sim-academic": "sim/academic"
+  }
+}

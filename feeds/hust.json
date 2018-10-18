@@ -1,0 +1,7 @@
+{
+  "namespace": "hust",
+  "paths": {
+    "auto-notice": "auto/notice/:type?",
+    "auto-news-": "auto/news"
+  }
+}

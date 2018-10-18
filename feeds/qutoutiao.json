@@ -1,0 +1,6 @@
+{
+  "namespace": "qutoutiao",
+  "paths": {
+    "category": "category/:cid"
+  }
+}

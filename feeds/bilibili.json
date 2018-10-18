@@ -1,25 +1,27 @@
 {
   "namespace": "bilibili",
   "paths": {
-    "bangumi": "bangumi/:seasonid",
     "user-video": "user/video/:uid",
     "user-article": "user/article/:uid",
-    "user-dynamic": "user/dynamic/:uid",
-    "user-channel": "user/channel/:uid/:cid",
     "user-fav": "user/fav/:uid",
-    "fav": "fav/:uid/:fid",
     "user-coin": "user/coin/:uid",
+    "user-dynamic": "user/dynamic/:uid",
     "user-followers": "user/followers/:uid",
     "user-followings": "user/followings/:uid",
     "partion": "partion/:tid",
-    "ranking": "ranking/:tid/:days",
+    "partion-ranking": "partion/ranking/:tid/:days?",
+    "bangumi": "bangumi/:seasonid",
     "video-reply": "video/reply/:aid",
     "link-news": "link/news/:product",
     "live-room": "live/room/:roomID",
     "live-search": "live/search/:key/:order",
     "live-area": "live/area/:areaID/:order",
+    "fav": "fav/:uid/:fid",
     "blackboard": "blackboard",
     "mall-new": "mall/new",
-    "mall-ip": "mall/ip/:id"
+    "mall-ip": "mall/ip/:id",
+    "ranking": "ranking/:rid?/:day?",
+    "user-channel": "user/channel/:uid/:cid",
+    "topic": "topic/:topic"
   }
 }

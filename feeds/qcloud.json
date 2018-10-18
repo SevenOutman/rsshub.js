@@ -1,0 +1,6 @@
+{
+  "namespace": "qcloud",
+  "paths": {
+    "mlvb-changelog": "mlvb/changelog"
+  }
+}

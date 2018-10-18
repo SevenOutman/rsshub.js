@@ -1,7 +1,7 @@
 {
   "namespace": "uukanshu",
-  "description": "UU看书",
   "paths": {
-    "chapter": "chapter/:id"
-  }
+    "chapter": "chapter/:uid"
+  },
+  "description": "UU看书"
 }

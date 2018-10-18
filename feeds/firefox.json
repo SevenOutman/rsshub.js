@@ -1,0 +1,6 @@
+{
+  "namespace": "firefox",
+  "paths": {
+    "release": "release/:platform"
+  }
+}

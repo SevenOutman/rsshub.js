@@ -1,0 +1,6 @@
+{
+  "namespace": "gitlab",
+  "paths": {
+    "explore": "explore/:type"
+  }
+}

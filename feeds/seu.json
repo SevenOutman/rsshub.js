@@ -1,0 +1,7 @@
+{
+  "namespace": "seu",
+  "paths": {
+    "radio-academic": "radio/academic",
+    "yzb": "yzb/:type"
+  }
+}

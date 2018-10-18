@@ -1,0 +1,6 @@
+{
+  "namespace": "nvidia",
+  "paths": {
+    "webdriverupdate": "webdriverupdate"
+  }
+}

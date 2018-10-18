@@ -2,6 +2,9 @@
   "namespace": "github",
   "paths": {
     "repos": "repos/:user",
-    "trending": "trending/:since/:language"
+    "trending": "trending/:since/:language?",
+    "issue": "issue/:user/:repo",
+    "user-followers": "user/followers/:user",
+    "stars": "stars/:user/:repo"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "namespace": "swust",
+  "paths": {
+    "jwc": "jwc/:type",
+    "cs": "cs/:type"
+  }
+}

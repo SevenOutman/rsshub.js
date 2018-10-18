@@ -1,0 +1,6 @@
+{
+  "namespace": "wechat",
+  "paths": {
+    "wasi": "wasi/:id"
+  }
+}
